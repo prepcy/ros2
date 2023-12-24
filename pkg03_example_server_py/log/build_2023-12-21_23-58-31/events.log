@@ -1,0 +1,69 @@
+[0.000000] (-) TimerEvent: {}
+[0.003826] (pkg03_example_server_py) JobQueued: {'identifier': 'pkg03_example_server_py', 'dependencies': OrderedDict()}
+[0.005528] (pkg03_example_server_py) JobStarted: {'identifier': 'pkg03_example_server_py'}
+[0.099422] (-) TimerEvent: {}
+[0.228662] (-) TimerEvent: {}
+[0.397158] (-) TimerEvent: {}
+[0.523096] (-) TimerEvent: {}
+[0.679524] (-) TimerEvent: {}
+[0.801438] (-) TimerEvent: {}
+[0.910165] (-) TimerEvent: {}
+[1.035103] (-) TimerEvent: {}
+[1.175472] (-) TimerEvent: {}
+[1.282542] (-) TimerEvent: {}
+[1.388757] (-) TimerEvent: {}
+[1.542437] (-) TimerEvent: {}
+[1.688934] (-) TimerEvent: {}
+[1.812180] (-) TimerEvent: {}
+[1.955755] (-) TimerEvent: {}
+[2.093732] (-) TimerEvent: {}
+[2.201877] (-) TimerEvent: {}
+[2.362112] (-) TimerEvent: {}
+[2.513712] (-) TimerEvent: {}
+[2.619855] (-) TimerEvent: {}
+[2.733690] (-) TimerEvent: {}
+[2.842784] (-) TimerEvent: {}
+[2.950640] (-) TimerEvent: {}
+[2.963891] (pkg03_example_server_py) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', 'build/pkg03_example_server_py', 'build', '--build-base', '/mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/build/pkg03_example_server_py/build', 'install', '--record', '/mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/build/pkg03_example_server_py/install.log', '--install-scripts', '$base/lib/pkg03_example_server_py', '--single-version-externally-managed'], 'cwd': '/mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py', 'env': {'SUDO_GID': '1000', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/root', 'USER': 'root', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'OLDPWD': '/mnt/hgfs/win11/ros2_test', 'ROS_PYTHON_VERSION': '3', 'GIT_HOSTING': 'git@git.domain.com', 'SCM_CHECK': 'true', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/mnt/hgfs/win11/ros2_test/install', 'SUDO_UID': '1000', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'root', 'TODO': 't', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'IRC_CLIENT': 'irssi', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', '_printf_cmd': 'printf', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUDO_COMMAND': '/usr/bin/su', 'AMENT_PREFIX_PATH': '/mnt/hgfs/win11/ros2_test/install/pkg03_example_server_py:/mnt/hgfs/win11/ros2_test/install/pkg01_helloworld_py:/mnt/hgfs/win11/ros2_test/install/pkg02_example_topic_py:/opt/ros/foxy', 'SHELL': '/bin/bash', 'SUDO_USER': 'jrlc', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'BASH_IT_THEME': 'bira', 'PWD': '/mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/build/pkg03_example_server_py', 'CLICOLOR': '256', 'BASH_IT': '/root/.bash_it', 'PYTHONPATH': '/mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/build/pkg03_example_server_py/prefix_override:/mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/pkg03_example_server_py/lib/python3.8/site-packages:/mnt/hgfs/win11/ros2_test/install/pkg03_example_server_py/lib/python3.8/site-packages:/mnt/hgfs/win11/ros2_test/install/pkg01_helloworld_py/lib/python3.8/site-packages:/mnt/hgfs/win11/ros2_test/install/pkg02_example_topic_py/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1'}, 'shell': False}
+[3.060681] (-) TimerEvent: {}
+[3.167742] (-) TimerEvent: {}
+[3.294451] (-) TimerEvent: {}
+[3.403844] (-) TimerEvent: {}
+[3.513510] (-) TimerEvent: {}
+[3.536237] (pkg03_example_server_py) StdoutLine: {'line': b'running egg_info\n'}
+[3.552843] (pkg03_example_server_py) StdoutLine: {'line': b'writing build/pkg03_example_server_py/pkg03_example_server_py.egg-info/PKG-INFO\n'}
+[3.561400] (pkg03_example_server_py) StdoutLine: {'line': b'writing dependency_links to build/pkg03_example_server_py/pkg03_example_server_py.egg-info/dependency_links.txt\n'}
+[3.565718] (pkg03_example_server_py) StdoutLine: {'line': b'writing entry points to build/pkg03_example_server_py/pkg03_example_server_py.egg-info/entry_points.txt\n'}
+[3.574288] (pkg03_example_server_py) StdoutLine: {'line': b'writing requirements to build/pkg03_example_server_py/pkg03_example_server_py.egg-info/requires.txt\n'}
+[3.578364] (pkg03_example_server_py) StdoutLine: {'line': b'writing top-level names to build/pkg03_example_server_py/pkg03_example_server_py.egg-info/top_level.txt\n'}
+[3.653494] (-) TimerEvent: {}
+[3.678491] (pkg03_example_server_py) StdoutLine: {'line': b"reading manifest file 'build/pkg03_example_server_py/pkg03_example_server_py.egg-info/SOURCES.txt'\n"}
+[3.687917] (pkg03_example_server_py) StdoutLine: {'line': b"writing manifest file 'build/pkg03_example_server_py/pkg03_example_server_py.egg-info/SOURCES.txt'\n"}
+[3.808217] (-) TimerEvent: {}
+[3.808742] (pkg03_example_server_py) StdoutLine: {'line': b'running build\n'}
+[3.810532] (pkg03_example_server_py) StdoutLine: {'line': b'running build_py\n'}
+[3.858838] (pkg03_example_server_py) StdoutLine: {'line': b'copying pkg03_example_server_py/node_cli.py -> /mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/build/pkg03_example_server_py/build/lib/pkg03_example_server_py\n'}
+[3.885289] (pkg03_example_server_py) StdoutLine: {'line': b'running install\n'}
+[3.898599] (pkg03_example_server_py) StdoutLine: {'line': b'running install_lib\n'}
+[3.906739] (pkg03_example_server_py) StdoutLine: {'line': b'copying /mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/build/pkg03_example_server_py/build/lib/pkg03_example_server_py/node_cli.py -> /mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/pkg03_example_server_py/lib/python3.8/site-packages/pkg03_example_server_py\n'}
+[3.911711] (-) TimerEvent: {}
+[3.919913] (pkg03_example_server_py) StdoutLine: {'line': b'byte-compiling /mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/pkg03_example_server_py/lib/python3.8/site-packages/pkg03_example_server_py/node_cli.py to node_cli.cpython-38.pyc\n'}
+[3.929832] (pkg03_example_server_py) StdoutLine: {'line': b'running install_data\n'}
+[3.936685] (pkg03_example_server_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.940451] (pkg03_example_server_py) StdoutLine: {'line': b"removing '/mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/pkg03_example_server_py/lib/python3.8/site-packages/pkg03_example_server_py-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[3.952675] (pkg03_example_server_py) StdoutLine: {'line': b'Copying build/pkg03_example_server_py/pkg03_example_server_py.egg-info to /mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/pkg03_example_server_py/lib/python3.8/site-packages/pkg03_example_server_py-0.0.0-py3.8.egg-info\n'}
+[4.013653] (-) TimerEvent: {}
+[4.029879] (pkg03_example_server_py) StdoutLine: {'line': b'running install_scripts\n'}
+[4.064417] (pkg03_example_server_py) StdoutLine: {'line': b'Installing node_cli script to /mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/pkg03_example_server_py/lib/pkg03_example_server_py\n'}
+[4.070594] (pkg03_example_server_py) StdoutLine: {'line': b'Installing node_ser script to /mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/pkg03_example_server_py/lib/pkg03_example_server_py\n'}
+[4.077835] (pkg03_example_server_py) StdoutLine: {'line': b"writing list of installed files to '/mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/build/pkg03_example_server_py/install.log'\n"}
+[4.119694] (-) TimerEvent: {}
+[4.124349] (pkg03_example_server_py) CommandEnded: {'returncode': 0}
+[4.222636] (-) TimerEvent: {}
+[4.372853] (-) TimerEvent: {}
+[4.481794] (-) TimerEvent: {}
+[4.594038] (-) TimerEvent: {}
+[4.711995] (-) TimerEvent: {}
+[4.791541] (pkg03_example_server_py) JobEnded: {'identifier': 'pkg03_example_server_py', 'rc': 0}
+[4.828100] (-) TimerEvent: {}
+[4.828723] (-) EventReactorShutdown: {}

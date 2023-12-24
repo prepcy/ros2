@@ -1,0 +1,39 @@
+running egg_info
+creating build/pkg03_example_server_py/pkg03_example_server_py.egg-info
+writing build/pkg03_example_server_py/pkg03_example_server_py.egg-info/PKG-INFO
+writing dependency_links to build/pkg03_example_server_py/pkg03_example_server_py.egg-info/dependency_links.txt
+writing entry points to build/pkg03_example_server_py/pkg03_example_server_py.egg-info/entry_points.txt
+writing requirements to build/pkg03_example_server_py/pkg03_example_server_py.egg-info/requires.txt
+writing top-level names to build/pkg03_example_server_py/pkg03_example_server_py.egg-info/top_level.txt
+writing manifest file 'build/pkg03_example_server_py/pkg03_example_server_py.egg-info/SOURCES.txt'
+reading manifest file 'build/pkg03_example_server_py/pkg03_example_server_py.egg-info/SOURCES.txt'
+writing manifest file 'build/pkg03_example_server_py/pkg03_example_server_py.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/build/pkg03_example_server_py/build
+creating /mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/build/pkg03_example_server_py/build/lib
+creating /mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/build/pkg03_example_server_py/build/lib/pkg03_example_server_py
+copying pkg03_example_server_py/node_cli.py -> /mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/build/pkg03_example_server_py/build/lib/pkg03_example_server_py
+copying pkg03_example_server_py/node_ser.py -> /mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/build/pkg03_example_server_py/build/lib/pkg03_example_server_py
+copying pkg03_example_server_py/__init__.py -> /mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/build/pkg03_example_server_py/build/lib/pkg03_example_server_py
+running install
+running install_lib
+creating /mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/pkg03_example_server_py/lib/python3.8/site-packages/pkg03_example_server_py
+copying /mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/build/pkg03_example_server_py/build/lib/pkg03_example_server_py/node_cli.py -> /mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/pkg03_example_server_py/lib/python3.8/site-packages/pkg03_example_server_py
+copying /mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/build/pkg03_example_server_py/build/lib/pkg03_example_server_py/node_ser.py -> /mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/pkg03_example_server_py/lib/python3.8/site-packages/pkg03_example_server_py
+copying /mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/build/pkg03_example_server_py/build/lib/pkg03_example_server_py/__init__.py -> /mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/pkg03_example_server_py/lib/python3.8/site-packages/pkg03_example_server_py
+byte-compiling /mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/pkg03_example_server_py/lib/python3.8/site-packages/pkg03_example_server_py/node_cli.py to node_cli.cpython-38.pyc
+byte-compiling /mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/pkg03_example_server_py/lib/python3.8/site-packages/pkg03_example_server_py/node_ser.py to node_ser.cpython-38.pyc
+byte-compiling /mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/pkg03_example_server_py/lib/python3.8/site-packages/pkg03_example_server_py/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/pkg03_example_server_py/share/ament_index
+creating /mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/pkg03_example_server_py/share/ament_index/resource_index
+creating /mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/pkg03_example_server_py/share/ament_index/resource_index/packages
+copying resource/pkg03_example_server_py -> /mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/pkg03_example_server_py/share/ament_index/resource_index/packages
+copying package.xml -> /mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/pkg03_example_server_py/share/pkg03_example_server_py
+running install_egg_info
+Copying build/pkg03_example_server_py/pkg03_example_server_py.egg-info to /mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/pkg03_example_server_py/lib/python3.8/site-packages/pkg03_example_server_py-0.0.0-py3.8.egg-info
+running install_scripts
+Installing node_cli script to /mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/pkg03_example_server_py/lib/pkg03_example_server_py
+Installing node_ser script to /mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/pkg03_example_server_py/lib/pkg03_example_server_py
+writing list of installed files to '/mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/build/pkg03_example_server_py/install.log'

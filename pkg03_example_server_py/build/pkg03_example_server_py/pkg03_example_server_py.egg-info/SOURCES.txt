@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+build/pkg03_example_server_py/pkg03_example_server_py.egg-info/PKG-INFO
+build/pkg03_example_server_py/pkg03_example_server_py.egg-info/SOURCES.txt
+build/pkg03_example_server_py/pkg03_example_server_py.egg-info/dependency_links.txt
+build/pkg03_example_server_py/pkg03_example_server_py.egg-info/entry_points.txt
+build/pkg03_example_server_py/pkg03_example_server_py.egg-info/requires.txt
+build/pkg03_example_server_py/pkg03_example_server_py.egg-info/top_level.txt
+build/pkg03_example_server_py/pkg03_example_server_py.egg-info/zip-safe
+pkg03_example_server_py/__init__.py
+pkg03_example_server_py/node_cli.py
+pkg03_example_server_py/node_ser.py
+resource/pkg03_example_server_py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

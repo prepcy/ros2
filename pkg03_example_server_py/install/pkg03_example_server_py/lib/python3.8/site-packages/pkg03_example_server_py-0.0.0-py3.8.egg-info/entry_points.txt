@@ -1,0 +1,4 @@
+[console_scripts]
+node_cli = pkg03_example_server_py.node_cli:main
+node_ser = pkg03_example_server_py.node_ser:main
+

@@ -1,0 +1,91 @@
+[3.900s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'pkg03_example_server_py']
+[3.901s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f535c8a1e20>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['pkg03_example_server_py'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f535c8a1e20>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f535c520eb0>)
+[4.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.122s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.124s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.125s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.126s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py'
+[4.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.139s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.141s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.175s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'pkg03_example_server_py'
+[4.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.540s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.542s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.697s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /mnt/hgfs/win11/ros2_test/install
+[4.787s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 256 installed packages in /opt/ros/foxy
+[4.790s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[5.046s] Level 5:colcon.colcon_core.verb:set package 'pkg03_example_server_py' build argument 'cmake_args' from command line to 'None'
+[5.047s] Level 5:colcon.colcon_core.verb:set package 'pkg03_example_server_py' build argument 'cmake_target' from command line to 'None'
+[5.048s] Level 5:colcon.colcon_core.verb:set package 'pkg03_example_server_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.048s] Level 5:colcon.colcon_core.verb:set package 'pkg03_example_server_py' build argument 'cmake_clean_cache' from command line to 'False'
+[5.048s] Level 5:colcon.colcon_core.verb:set package 'pkg03_example_server_py' build argument 'cmake_clean_first' from command line to 'False'
+[5.049s] Level 5:colcon.colcon_core.verb:set package 'pkg03_example_server_py' build argument 'cmake_force_configure' from command line to 'False'
+[5.049s] Level 5:colcon.colcon_core.verb:set package 'pkg03_example_server_py' build argument 'ament_cmake_args' from command line to 'None'
+[5.050s] Level 5:colcon.colcon_core.verb:set package 'pkg03_example_server_py' build argument 'catkin_cmake_args' from command line to 'None'
+[5.050s] Level 5:colcon.colcon_core.verb:set package 'pkg03_example_server_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.051s] DEBUG:colcon.colcon_core.verb:Building package 'pkg03_example_server_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/build/pkg03_example_server_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/pkg03_example_server_py', 'merge_install': False, 'path': '/mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py', 'symlink_install': False, 'test_result_base': None}
+[5.112s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[5.175s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[5.176s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py' with build type 'ament_python'
+[5.176s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg03_example_server_py', 'ament_prefix_path')
+[5.298s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[5.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/pkg03_example_server_py/share/pkg03_example_server_py/hook/ament_prefix_path.ps1'
+[5.313s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/pkg03_example_server_py/share/pkg03_example_server_py/hook/ament_prefix_path.dsv'
+[5.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/pkg03_example_server_py/share/pkg03_example_server_py/hook/ament_prefix_path.sh'
+[5.393s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.393s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.370s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py'
+[6.437s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.438s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.856s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py': PYTHONPATH=/mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/build/pkg03_example_server_py/prefix_override:/mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/pkg03_example_server_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/pkg03_example_server_py build --build-base /mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/build/pkg03_example_server_py/build install --record /mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/build/pkg03_example_server_py/install.log --install-scripts $base/lib/pkg03_example_server_py --single-version-externally-managed
+[8.798s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py' returned '0': PYTHONPATH=/mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/build/pkg03_example_server_py/prefix_override:/mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/pkg03_example_server_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/pkg03_example_server_py build --build-base /mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/build/pkg03_example_server_py/build install --record /mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/build/pkg03_example_server_py/install.log --install-scripts $base/lib/pkg03_example_server_py --single-version-externally-managed
+[8.874s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/pkg03_example_server_py' for CMake module files
+[8.939s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/pkg03_example_server_py' for CMake config files
+[9.069s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/pkg03_example_server_py/lib'
+[9.072s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/pkg03_example_server_py/bin'
+[9.074s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/pkg03_example_server_py/lib/pkgconfig/pkg03_example_server_py.pc'
+[9.076s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/pkg03_example_server_py/lib/python3.8/site-packages'
+[9.077s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg03_example_server_py', 'pythonpath')
+[9.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/pkg03_example_server_py/share/pkg03_example_server_py/hook/pythonpath.ps1'
+[9.192s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/pkg03_example_server_py/share/pkg03_example_server_py/hook/pythonpath.dsv'
+[9.200s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/pkg03_example_server_py/share/pkg03_example_server_py/hook/pythonpath.sh'
+[9.207s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/pkg03_example_server_py/bin'
+[9.208s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pkg03_example_server_py)
+[9.280s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/pkg03_example_server_py/share/pkg03_example_server_py/package.ps1'
+[9.292s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/pkg03_example_server_py/share/pkg03_example_server_py/package.dsv'
+[9.328s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/pkg03_example_server_py/share/pkg03_example_server_py/package.sh'
+[9.385s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/pkg03_example_server_py/share/pkg03_example_server_py/package.bash'
+[9.428s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/pkg03_example_server_py/share/pkg03_example_server_py/package.zsh'
+[9.436s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/pkg03_example_server_py/share/colcon-core/packages/pkg03_example_server_py)
+[9.446s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.449s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.450s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.472s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.630s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.631s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.632s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.649s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[9.651s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.728s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/local_setup.ps1'
+[9.751s] INFO:colcon.colcon_core.shell:Creating prefix util module '/mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/_local_setup_util_ps1.py'
+[9.757s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/setup.ps1'
+[9.843s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/local_setup.sh'
+[9.848s] INFO:colcon.colcon_core.shell:Creating prefix util module '/mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/_local_setup_util_sh.py'
+[9.853s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/setup.sh'
+[9.938s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/local_setup.bash'
+[9.944s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/setup.bash'
+[10.027s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/local_setup.zsh'
+[10.033s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/hgfs/win11/ros2_test/src/pkg03_example_server_py/install/setup.zsh'
